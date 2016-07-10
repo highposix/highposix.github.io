@@ -50,7 +50,25 @@ div.contents {
 }
 div#footer {
   width: 320px;
-  margin: 16px auto;
+  margin: 14px auto;
+}
+div#footer > ul.sns {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+div#footer > ul.sns > li {
+  margin: 0 .7em 1.4em .7em;
+}
+div#footer > ul.sns > li > a {
+  font-size: 38px;
+  color: #515151;
+}
+div#footer > ul.sns > li > a.twitter:hover {
+  color: #55acee;
+}
+div#footer > ul.sns > li > a.vimeo:hover {
+  color: #1ab7ea;
 }
 ul {
   margin: 0;
@@ -61,7 +79,7 @@ li {
   margin: 32px 0;
 }
 li > img {
-    width: 80%;
+  width: 80%;
 }
 ::selection {
   background: #ddd;
